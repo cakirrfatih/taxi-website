@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxi Reservering Nederland</title>
+</head>
+<body>
+  <h1>Taxi Dienst Nederland</h1>
+  <p>Veilig en snel vervoer in heel Nederland</p>
+
+  <h2>Reserveer een Rit</h2>
+  <form action="mailto:fatih24_200261@hotmail.com" method="post" enctype="text/plain">
+    <label>Naam:</label>
+    <input type="text" name="naam" required><br><br>
+
+    <label>Telefoonnummer:</label>
+    <input type="tel" name="telefoon" required><br><br>
+
+    <label>Vertrekplaats:</label>
+    <input type="text" name="vertrek" required><br><br>
+
+    <label>Bestemming:</label>
+    <input type="text" name="bestemming" required><br><br>
+
+    <label>Datum & Tijd:</label>
+    <input type="datetime-local" name="datumtijd" required><br><br>
+
+    <label>Opmerkingen:</label><br>
+    <textarea name="opmerkingen"></textarea><br><br>
+
+    <button type="submit">Verzenden</button>
+  </form>
+</body>
+</html>
